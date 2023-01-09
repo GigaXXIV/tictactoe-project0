@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 10px">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Finger+Paint&family=Jolly+Lodger&family=Monoton&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="flicflacflo.css">
+  <!-- <script src="tictactoe.js"></script> -->
+  <title>Flic Flac Flo</title>
+</head>
+
+<body>
+
+  <!-- MAIN -->
+
+  <main class="container">
+
+    <!-- HEADER -->
+
+    <!-- TITLES -->
+    <section class="header">
+
+      <h1>FLIC FLAC FLO</h1>
+
+    </section>
+
+    <!-- ANNOUNCER -->
+    
+    <section class="display">
+      
+      Player  <span class="playerDisplay playerX"> X </span> Your Turn!
+      
+    </section>
+    
+
+    <!-- NESTED GRID -->
+
+    <div class="wrapper">
+
+
+
+      <!-- LEFT PLAYER PANEL -->
+
+      <div class="player p-one">
+
+        <img src="Graphics/Xavatar.png" alt="">
+        <h2 class="score">SCORE <span class="scoreX"> 0 </span></h2>
+
+      </div>
+
+      <!-- GAME BOARD -->
+      
+      <div class="gameBoard">
+
+        <div class="tile" id="0"></div>
+        <div class="tile" id="1"></div>
+        <div class="tile" id="2"></div>
+        <div class="tile" id="3"></div>
+        <div class="tile" id="4"></div>
+        <div class="tile" id="5"></div>
+        <div class="tile" id="6"></div>
+        <div class="tile" id="7"></div>
+        <div class="tile" id="8"></div>
+
+      </div>
+
+      <!-- RIGHT PLAYER PANEL -->
+
+      <div class="player p-two">
+
+        <img src="Graphics/Oavatar.png" alt="">
+        <h2 class="score">SCORE <span class="scoreO"> 0 </span></h2>
+
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <!-- ANNOUNCER -->
+    <section class="display announcer hide"></section>
+  
+       <!-- RESTART BUTTON -->
+    <section class="controls">
+ 
+    <button id="reset">Reset</button>
+
+    </section>
+
+  </main>
+
+<script src="flicflacflo.js"></script>
+
+</body>
+
+</html>
